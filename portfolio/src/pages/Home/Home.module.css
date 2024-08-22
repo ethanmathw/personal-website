@@ -1,0 +1,32 @@
+.homeContainer {
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--brown-color); /* Set the background color */
+  }
+  
+  .header {
+    margin-bottom: 2rem;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    color: var(--pink-color);
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    color: var(--pink-color);
+  }
+  
+  .content h2 {
+    font-size: 2rem;
+    color: var(--pink-color);
+    margin-top: 1.5rem;
+  }
+  
+  .content p {
+    font-size: 1.1rem;
+    color: var(--pink-color);
+    margin-top: 0.5rem;
+  }
+  
