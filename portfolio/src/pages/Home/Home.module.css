@@ -1,32 +1,65 @@
 .homeContainer {
-    padding: 2rem;
-    text-align: center;
-    background-color: var(--brown-color); /* Set the background color */
+    height: 95vh; 
+    padding: 0; /* Remove any padding that might cause overflow */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    background-color: var(--brown-color);
   }
   
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--secondary-color); /* Use your secondary color variable */
+    border-radius: 8px;
+    height: 100%;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Adds a subtle shadow */
+  }
+
+  .horizontalContainer {
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: space-between; /* Distribute space between the children */
+    align-items: center; /* Center the items vertically */
+    padding: 1rem; /* Add some padding around the container */
+    margin: 1rem 0; /* Add some vertical margin to separate it from other content */
+    background-color: var(--secondary-color); /* Optional: Background color for the container */
+    border-radius: 8px; /* Optional: Rounds the corners */
+    width: 100%;
+  }
+
+
   .header {
-    margin-bottom: 2rem;
+    margin: 0;
+    padding: 1rem; /* Add some padding for spacing inside the border */
+    /* border: 2px solid white;  */
   }
   
   .header h1 {
-    font-size: 2.5rem;
+    font-size: 5vw;
     color: var(--pink-color);
+    font-family: var(--font-family-primary);
   }
   
-  .header p {
-    font-size: 1.2rem;
-    color: var(--pink-color);
+  .title {
+    text-align: left;
+    color: var(--pink-color); /* Use your primary color variable */
+    font-family: var(--font-family-primary); /* Use your primary font-family variable */
   }
   
-  .content h2 {
-    font-size: 2rem;
-    color: var(--pink-color);
-    margin-top: 1.5rem;
+  .title h1 {
+    margin: 0.5rem 0; /* Adds spacing between the h1 elements */
+    font-size: 1.8rem; /* Adjust the font size as needed */
+    line-height: 1.2; /* Adjust line height for better readability */
   }
-  
-  .content p {
-    font-size: 1.1rem;
-    color: var(--pink-color);
-    margin-top: 0.5rem;
+
+  .resume {
+    text-align: right;
+    color: var(--pink-color); /* Use your primary color variable */
+    font-family: var(--font-family-primary); /* Use your primary font-family variable */
   }
   

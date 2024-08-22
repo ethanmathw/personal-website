@@ -4,6 +4,7 @@ import NavBar from './components/NavBar/NavBar'
 
 import Home from './pages/Home/Home';
 import Experience from './pages/Experience/Experience';
+import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contact/Contact';
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
         {/* Define the routes for your different pages */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<Experience />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>

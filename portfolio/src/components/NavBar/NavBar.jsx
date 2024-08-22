@@ -5,11 +5,10 @@ function NavBar() {
   return (
     <nav className={styles.nav}>
       <ul>
-        <li><text>Home</text></li>
-        <li></li>
-        <li><text>Experience</text></li>
-        <li><text>Projects</text></li>
-        <li><text>Contact</text></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/experience">Experience</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
     </nav>
   );

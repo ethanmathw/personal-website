@@ -1,0 +1,38 @@
+.projectsContainer {
+    padding: 2rem;
+    background-color: var(--brown-color); /* Background color for the projects section */
+    color: var(--primary-color); /* Text color for the section */
+    font-family: var(--font-family-primary); /* Font family for consistency */
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: var(--primary-color); /* Ensures the title uses the primary color */
+  }
+  
+  .projectList {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* Space between project items */
+  }
+  
+  .projectItem {
+    background-color: var(--white-color); /* White background for each project */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  }
+  
+  .projectItem h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+  }
+  
+  .projectItem p {
+    font-size: 1.2rem;
+    color: var(--text-color);
+  }
+  

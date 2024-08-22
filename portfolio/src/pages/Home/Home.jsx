@@ -4,27 +4,28 @@ import styles from './Home.module.css';
 function Home() {
   return (
     <div className={styles.homeContainer}>
-      <header className={styles.header}>
-        <h1>Welcome to My Website</h1>
-        <p>Your one-stop solution for all your needs.</p>
-      </header>
-      
-      <section className={styles.content}>
-        <h2>About Us</h2>
-        <p>
-          We are a leading company in our industry, committed to providing quality services and products to our customers. Our goal is to exceed your expectations in every aspect.
-        </p>
+        <div className = {styles.container}>
+            <header className={styles.header}>
+            <h1>Hi, my name is Ethan Mathew</h1>
+            </header>
 
-        <h2>Our Services</h2>
-        <p>
-          We offer a wide range of services to meet your needs, including consulting, product development, and customer support. Explore our services page to learn more.
-        </p>
+            <div className = {styles.horizontalContainer}></div>
+            
+            <div className = {styles.horizontalContainer}>
 
-        <h2>Contact Us</h2>
-        <p>
-          Have any questions? Feel free to reach out to us through our contact page. We're here to help!
-        </p>
-      </section>
+
+                <div className={styles.title}>
+                    <h1>Computer Science and Statistics</h1>
+                    <h1>University of Illinois Urbana Champaign</h1>
+                </div>
+
+                <div className={styles.resume}>
+                    <h1>My Resume</h1>
+                </div>                
+            </div>
+
+            
+        </div>
     </div>
   );
 }

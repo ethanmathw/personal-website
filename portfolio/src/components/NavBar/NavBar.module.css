@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-end; /* Align items to the bottom */
-  height: 80px; /* Optional: Set a height for the NavBar */
+  height: 5vh; /* Optional: Set a height for the NavBar */
 }
 
 .nav ul {
@@ -23,7 +23,7 @@
   margin: 0;
 }
 
-.nav text { 
+.nav a { 
   color: var(--brown-color);
   text-decoration: none;
   font-size: 1.5rem;
