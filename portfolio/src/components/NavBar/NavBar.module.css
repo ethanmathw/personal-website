@@ -1,4 +1,5 @@
-@import 'portfolio/src/variables.css';
+@import '../../styles/variables.css';
+
 
 .nav {
   background-color: var(--pink-color);
@@ -22,7 +23,7 @@
   margin: 0;
 }
 
-.nav a { 
+.nav text { 
   color: var(--brown-color);
   text-decoration: none;
   font-size: 1.5rem;
