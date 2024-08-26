@@ -1,7 +1,8 @@
 .projectsContainer {
     padding: 2rem;
+    height: 90vh; 
     background-color: var(--brown-color); /* Background color for the projects section */
-    color: var(--primary-color); /* Text color for the section */
+    color: var(--pink-color); /* Text color for the section */
     font-family: var(--font-family-primary); /* Font family for consistency */
   }
   
@@ -14,21 +15,25 @@
   
   .projectList {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 2rem; /* Space between project items */
   }
   
   .projectItem {
     background-color: var(--white-color); /* White background for each project */
     padding: 1.5rem;
+    border: 1px solid white; /* Adds a subtle shadow */
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    height: 50vh; 
+    width: 30vw;
   }
   
-  .projectItem h2 {
+  .projectItem a {
     font-size: 2rem;
     margin-bottom: 1rem;
     color: var(--primary-color);
+    text-align: center;
+    display:flex;
   }
   
   .projectItem p {

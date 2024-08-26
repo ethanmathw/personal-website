@@ -7,23 +7,23 @@ function Projects() {
       <h1 className={styles.title}>My Projects</h1>
       <div className={styles.projectList}>
         <div className={styles.projectItem}>
-          <h2>Project One</h2>
+          <a href = "https://github.com/ethanmathw/GAIA-Personal-Idea-Evaluator">GAIA Personal Idea Evaluator</a>
           <p>
-            A web application built with React and Node.js that allows users to manage their tasks efficiently.
+            Project focuses on leveraging Generative AI principles to create an AI evaluator capable of providing thorough text evaluations for solutions. The system incorporates several layers of complex large language models (LLMs) and utilizes innovative techniques for idea evaluation.
           </p>
         </div>
 
         <div className={styles.projectItem}>
-          <h2>Project Two</h2>
+          <a href = "https://github.com/ethanmathw">Checkpoint Based Attendance Tracker</a>
           <p>
-            A mobile app developed using React Native, designed to help users track their fitness goals.
+            Developed a checkpoint-based attendance tracker using MongoDB, Node.js, Express.js, and a React Native application to monitor fraternity member attendance
           </p>
         </div>
 
         <div className={styles.projectItem}>
-          <h2>Project Three</h2>
+          <a href = " https://github.com/ethanmathw/leecode_simplified">LeetCode Simplfied (Ongoing)</a>
           <p>
-            A data visualization tool that uses D3.js to create interactive charts and graphs from user data.
+          A generative AI Chrome extension built using React, Node.js, and OpenAI's GPT API, designed to guide users step-by-step through LeetCode problems, offering personalized explanations and interactive learning experiences to help students understand coding concepts more effectively instead of just providing them with the answers.
           </p>
         </div>
       </div>
