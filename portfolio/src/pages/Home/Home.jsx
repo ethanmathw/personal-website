@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Home.module.css';
-
+import resume from "../../assets/EthanMathewResume.pdf"
 function Home() {
   return (
     <div className={styles.homeContainer}>
@@ -20,7 +20,7 @@ function Home() {
                 </div>
 
                 <div className={styles.resume}>
-                    <h1>My Resume</h1>
+                    <a href = {resume}>My Resume</a>
                 </div>                
             </div>
 

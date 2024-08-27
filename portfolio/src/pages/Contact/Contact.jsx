@@ -1,20 +1,34 @@
 import React from 'react';
 import styles from './Contact.module.css';
+import github from '../../assets/github.png';
+import email from '../../assets/email.png';
+import linkedin from '../../assets/linkedin.jpg'
+
 
 function Contact() {
   return (
+    // <h2> Contact Me </h2>
     <div className={styles.contactContainer}>
-      <h1>Contact Us</h1>
-      <p>Feel free to reach out to us with any questions or concerns!</p>
-      <form>
-        <label>Name:</label>
-        <input type="text" name="name" />
-        <label>Email:</label>
-        <input type="email" name="email" />
-        <label>Message:</label>
-        <textarea name="message"></textarea>
-        <button type="submit">Send</button>
-      </form>
+      <div className = {styles.contacts}>
+        <div className={styles.socialMediaContainer}>
+            <img src={github} alt="Github" className={styles.socialMediaIcon} />
+            <a href = "github.com/ethanmathw" className={styles.handleBubble}>
+              github.com/ethanmathw
+            </a>
+        </div>
+        <div className={styles.socialMediaContainer}>
+            <img src={linkedin} alt="Email" className={styles.socialMediaIcon} />
+            <a href = "https://www.linkedin.com/in/ethanmathw3278/" className={styles.handleBubble}>
+                linkedin.com/ethanmathw
+            </a>
+        </div>
+        <div className={styles.socialMediaContainer}>
+          <img src={email} alt="Email" className={styles.socialMediaIcon} />
+            <a href = "mailto:ethantm2@illinois.edu" className={styles.handleBubble}>
+                ethantm2@illinois.edu
+            </a>
+        </div>
+      </div>
     </div>
   );
 }

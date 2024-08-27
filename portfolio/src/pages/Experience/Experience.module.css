@@ -1,0 +1,51 @@
+@import '../../styles/variables.css';
+
+.experienceContainer {
+    padding: 2rem; 
+    background-color: var(--brown-color);
+    height: 90vh; 
+    margin: 0; 
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: var(--primary-color); /* Ensures the title uses the primary color */
+  }
+
+.experienceContainer h1, h2 {
+    text-align: center;
+    color: var(--pink-color);
+    font-family: var(--font-family-primary);
+    padding: 1rem;
+}
+
+.experienceContainer p {
+    color: var(--pink-color);
+    font-family: var(--font-family-primary);
+}
+
+
+.job {
+    background-color: var(--white-color); /* White background for each project */
+    padding: 1.5rem;
+    border: 1px solid white; /* Adds a subtle shadow */
+    border-radius: 8px;
+    height: 60vh; 
+    box-sizing: border-box;
+}
+
+.job h2 {
+    padding: 0rem;
+}
+
+.jobList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem; 
+    justify-content: space-between;
+    align-items: center;
+}
+

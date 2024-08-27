@@ -1,35 +1,52 @@
 @import '../../styles/variables.css';
 
-
 .nav {
   background-color: var(--pink-color);
-  padding: 2rem;
+  padding: 1.5rem 2rem;
   display: flex;
-  justify-content: space-around;
-  align-items: flex-end; /* Align items to the bottom */
-  height: 5vh; /* Optional: Set a height for the NavBar */
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.nav ul {
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.logo a {
+  color: var(--brown-color);
+  text-decoration: none;
+  transition: border-bottom 0.3s ease, color 0.3s ease;
+}
+
+.logo a:hover {
+  color: var(--brown-color);
+  border-bottom: 2px solid var(--brown-color);
+}
+
+.navLinks {
   list-style: none;
   display: flex;
   justify-content: space-around;
   margin: 0;
   padding: 0;
-  width: 100%; /* Ensure the ul spans the full width */
+  width: 50%; /* Adjust width as necessary */
 }
 
-.nav li {
-  margin: 0;
+.navLinks li {
+  margin: 0 1rem;
 }
 
-.nav a { 
+.navLinks a { 
   color: var(--brown-color);
   text-decoration: none;
-  font-size: 1.5rem;
-  padding-bottom: 0.5rem; /* Add padding to move text closer to the bottom */
+  font-size: 1.2rem;
+  padding-bottom: 0.3rem;
+  transition: border-bottom 0.3s ease, color 0.3s ease;
 }
 
-.nav a:hover {
-  text-decoration: underline;
+.navLinks a:hover {
+  border-bottom: 2px solid var(--brown-color);
+  color: rgb(7, 7, 7);
 }

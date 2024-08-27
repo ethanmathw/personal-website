@@ -57,9 +57,20 @@
     line-height: 1.2; /* Adjust line height for better readability */
   }
 
-  .resume {
+  .resume{
     text-align: right;
     color: var(--pink-color); /* Use your primary color variable */
     font-family: var(--font-family-primary); /* Use your primary font-family variable */
   }
-  
+  .resume a {
+    color: var(--pink-color);
+    margin: 0.5rem 0; /* Adds spacing between the h1 elements */
+    font-size: 1.8rem; /* Adjust the font size as needed */
+    line-height: 1.2; /* Adjust line height for better readability */
+    transition: border-bottom 0.3s ease, color 0.3s ease;
+  }
+
+  .resume a:hover {
+    border-bottom: 2px solid var(--hover-color);
+    color: var(--hover-color);
+  }

@@ -1,0 +1,42 @@
+.contactContainer {
+    display: flex;
+    justify-content: center; /* Centers the grid horizontally */
+    align-items: center; /* Centers the grid vertically */
+    padding: 1rem;
+    width: 100vw; /* Full width of the viewport */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+    background-color: var(--brown-color);
+    height: 90vh; 
+}
+
+
+.contacts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Creates a responsive grid */
+    gap: 1rem; /* Space between the grid items */
+    max-width: 1300px; /* Optional: limit the maximum width of the grid */
+    height: 10vh;
+    width: 100%; /* Ensure the grid takes up the full available width */
+}
+
+.socialMediaContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers content inside each container */
+    padding: 1rem; /* Optional padding inside each container */
+    border: 1px solid #f1f1f1; /* Optional: background color for the containers */
+    border-radius: 8px; /* Optional: rounded corners for the containers */
+    max-height: 20vh;
+}
+
+.socialMediaIcon {
+    width: 40px; /* Adjust size of the social media icons */
+    height: 40px;
+    margin-right: 10px; /* Space between the icon and the text */
+}
+
+.handleBubble {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Text color */
+    font-size: 2rem;
+}
