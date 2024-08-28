@@ -9,7 +9,7 @@ function Projects() {
         <div className={styles.projectItem}>
           <a href = "https://github.com/ethanmathw/GAIA-Personal-Idea-Evaluator">GAIA Personal Idea Evaluator</a>
           <p>
-            Project focuses on leveraging Generative AI principles to create an AI evaluator capable of providing thorough text evaluations for solutions. The system incorporates several layers of complex large language models (LLMs) and utilizes innovative techniques for idea evaluation.
+            Project that focuses on leveraging Generative AI principles to create an AI evaluator capable of providing thorough text evaluations for solutions. The system incorporates several layers of complex large language models (LLMs) and utilizes innovative techniques for idea evaluation.
           </p>
         </div>
 
